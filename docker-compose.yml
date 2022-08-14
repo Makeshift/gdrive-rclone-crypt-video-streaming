@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  grcvs:
+    image: makeshift27015/grcvs
+    build:
+      context: .
+    env_file: .env

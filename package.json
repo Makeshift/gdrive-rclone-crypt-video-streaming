@@ -1,0 +1,35 @@
+{
+  "name": "gdrive-rclone-crypt-video-streaming",
+  "version": "0.0.0",
+  "description": "Stream your Rclone-encrypted files from Google Drive to your browser",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makeshift/gdrive-rclone-crypt-video-streaming.git"
+  },
+  "author": "Connor Bell (makeshift@github)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makeshift/gdrive-rclone-crypt-video-streaming/issues"
+  },
+  "homepage": "https://github.com/Makeshift/gdrive-rclone-crypt-video-streaming#readme",
+  "dependencies": {
+    "cli-highlight": "^2.1.11",
+    "dotenv": "^16.0.1",
+    "glob": "^8.0.3",
+    "google-auth-library": "^8.1.1",
+    "googleapis": "^105.0.0",
+    "rclone": "^1.4.0",
+    "triple-beam": "^1.3.0",
+    "tty": "^1.0.1",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}

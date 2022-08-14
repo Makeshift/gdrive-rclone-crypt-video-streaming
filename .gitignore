@@ -1,0 +1,4 @@
+node_modules
+.env
+service_accounts
+.vscode
